@@ -22,6 +22,7 @@ module.exports = {
       current: "currentColor",
       black: "#000",
       white: "#fff",
+      main: 'purple',
       gray: {
         "100": "#f7fafc",
         "200": "#edf2f7",
@@ -152,6 +153,8 @@ module.exports = {
       "48": "12rem",
       "56": "14rem",
       "64": "16rem",
+      "600": "600px",
+      "200": "200px",
       px: "1px"
     },
     backgroundImage: {
@@ -190,7 +193,8 @@ module.exports = {
       xl: "0.75rem",
       "2xl": "1rem",
       "3xl": "1.5rem",
-      full: "9999px"
+      full: "9999px",
+      "20px": "20px"
     },
     borderWidth: {
       "0": "0",
@@ -199,18 +203,19 @@ module.exports = {
       "8": "8px",
       default: "1px"
     },
-    boxShadow: {
-      xs: "0 0 0 1px rgba(0, 0, 0, 0.05)",
-      sm: "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
-      default: "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
-      md: "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-      lg: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-      xl: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
-      "2xl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
-      inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
-      outline: "0 0 0 3px rgba(66, 153, 225, 0.5)",
-      none: "none"
-    },
+    boxShadow: false,
+    // boxShadow: {
+    //   xs: "0 0 0 1px rgba(0, 0, 0, 0.05)",
+    //   sm: "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
+    //   default: "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+    //   md: "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+    //   lg: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+    //   xl: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+    //   "2xl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
+    //   inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
+    //   outline: "0 0 0 3px rgba(66, 153, 225, 0.5)",
+    //   none: "none"
+    // },
     container: {},
     cursor: {
       auto: "auto",
@@ -352,6 +357,7 @@ module.exports = {
     },
     opacity: {
       "0": "0",
+      "10": "0.1",
       "25": "0.25",
       "50": "0.5",
       "75": "0.75",
